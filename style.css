@@ -5,7 +5,7 @@
 }
 
 /** main page **/
-.page{
+body{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,7 +137,6 @@ a:hover {
     border:1px solid black;
     border-radius:12px;
     padding-left:
-
 }
 
 .box1 p {
@@ -205,6 +204,18 @@ a:hover {
 }
 
 
+.facebook:hover {
+    transform: scale(1.10);
+}
+
+
+
+.insta:hover {
+    transform: scale(1.10);
+}
+
+
+
 .linkdin{
     background-image:url(in-image.png);
     background-size:cover;
@@ -213,6 +224,12 @@ a:hover {
     border-radius:50%;
     border:1px solid rgb(74, 69, 69);
 }
+
+
+.linkdin:hover {
+    transform: scale(1.10);
+}
+
 
 
 .github{
@@ -224,6 +241,11 @@ a:hover {
     border:1px solid rgb(74, 69, 69);
 }
 
+.github:hover {
+    transform: scale(1.10);
+}
+
+
 .logo-img{
     height:200px;
     width:200px;
@@ -231,4 +253,99 @@ a:hover {
     border-radius:50%;
     background-image:url(pro.jpg);
     background-size:cover;
+}
+
+
+.logo-img:hover {
+    transform: scale(1.10);
+}
+
+
+.two-box{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.p3{
+    margin-top:0.50rem;
+}
+
+.read-more{
+    height: 30px;
+    width:80px;
+    background-color:rgb(74, 69, 69);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size:0.75rem;
+    border-radius:20px;
+    margin-top:10px;
+    transition-property: all 2s ease-out;
+    
+}
+
+.read-more p {
+    margin-left:10px;
+}
+
+.read-more:hover {
+    transform: scale(1.10);
+    color:white;
+    background-color: blueviolet;
+}
+
+
+.personal-info{
+    background-color:aliceblue;
+    width:350px;
+    margin-left:20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.name1{
+    display: flex;
+    font-size:0.90rem;
+}
+
+.name1 p {
+    margin-left:10px;
+}
+
+.age{
+    display: flex;
+     font-size:0.90rem;
+}
+
+.age p {
+      margin-left:10px;
+}
+
+.location{
+    display: flex;
+     font-size:0.90rem;
+}
+
+.location p {
+      margin-left:10px;
+}
+
+.mail{
+    display: flex;
+     font-size:0.90rem;
+}
+
+.mail p {
+      margin-left:10px;
+}
+
+.freelance{
+    display: flex;
+     font-size:0.90rem;
+}
+
+.freelance p {
+      margin-left:10px;
 }
