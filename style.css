@@ -136,7 +136,6 @@ a:hover {
     width:10rem;
     border:1px solid black;
     border-radius:12px;
-    padding-left:
 }
 
 .box1 p {
@@ -348,4 +347,213 @@ a:hover {
 
 .freelance p {
       margin-left:10px;
+}
+
+
+/** my skills **/
+
+.ms{
+    height:150px;
+    background-color:rgb(193, 224, 224);
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top:10px;
+}
+
+.myskills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    /* margin-top:30px; */
+}
+
+.line p {
+    margin-top:55px;
+}
+
+
+.img-logo{
+    background-size:cover;
+    height:50px;
+    width:35px;
+}
+
+
+.gb-logo {
+    background-size:cover;
+    height:50px;
+    width:50px;
+}
+
+
+.gh-logo {
+    background-size:cover;
+    height:50px;
+    width:50px;
+}
+
+
+
+.html{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+
+}
+
+.progress {
+    width: 100px;
+    height: 8px;
+    background-color: rgb(62, 59, 59);
+    border-radius: 10px;
+    margin-top:10px;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+.html b {
+    font-size:0.75rem;
+    margin-top:10px;
+}
+
+
+.per p {
+    font-size:0.75rem;
+    margin-top:10px;
+}
+
+
+.css{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.progress {
+    width: 100px;
+    height: 8px;
+    background-color: rgb(7, 7, 7);
+    border-radius: 10px;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(42, 42, 44);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+.css b {
+    font-size:0.75rem;
+     margin-top:10px;
+}
+
+
+.js{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.progress {
+    width: 100px;
+    height: 8px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.progress-bar-js{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(255, 81, 0);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.js b {
+    font-size:0.75rem;
+     margin-top:10px;
+}
+
+
+.gb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.progress {
+    width: 100px;
+    height: 8px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 81, 0);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+.gb b {
+    font-size:0.75rem;
+     margin-top:10px;
+}
+
+
+.gh{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.progress {
+    width: 100px;
+    height: 8px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 81, 0);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+.gh b {
+    font-size:0.75rem;
+     margin-top:10px;
 }
