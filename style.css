@@ -13,9 +13,10 @@ body{
 }
 
 header{
-    height:380px;
+    height:px;
     width:800px;
-    background-color:rgb(17, 16, 16);
+    background-color:rgba(226, 222, 222, 0.865);
+    margin-bottom: 20px;
    
 }
 
@@ -25,6 +26,7 @@ header{
     align-content: center;
     align-items: center;
     margin-top:20px;
+    background-color: black;
 
 }
 
@@ -82,6 +84,8 @@ a:hover {
     align-items: center;
     align-content: center;
     margin-top:2rem;
+    background-color: black;
+    height:350px;
 }
 
 
@@ -273,7 +277,7 @@ a:hover {
 .read-more{
     height: 30px;
     width:80px;
-    background-color:rgb(74, 69, 69);
+    background-color:blueviolet;
     justify-content: center;
     align-items: center;
     align-content: center;
@@ -291,7 +295,7 @@ a:hover {
 .read-more:hover {
     transform: scale(1.10);
     color:white;
-    background-color: blueviolet;
+    background-color: rgb(54, 52, 55);
 }
 
 
@@ -556,4 +560,173 @@ a:hover {
 .gh b {
     font-size:0.75rem;
      margin-top:10px;
+}
+
+
+/** my projects **/
+
+.my-projects{
+    height:250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    /* background-color:aqua; */
+}
+
+.pro-1{
+    height:230px;
+    width:170px;
+    /* background-color:blueviolet; */
+    border:2px solid rgb(125, 120, 120);
+    border-radius:10px;
+    font-size:0.85rem;
+}
+
+.pro-img{
+    background-image:url(insta.png);
+    background-size:cover;
+    height:90px;
+    width:170px;
+    display: flex;
+    flex-direction: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius:15px;
+}
+
+.pro-button{
+    background-color:blueviolet;
+    color:white;
+    border-radius:5px;
+    margin-left:10px;
+}
+
+.m{
+    margin-left:10px;
+}
+
+.bold{
+    font-size:1rem;
+     margin-left:10px;
+}
+
+/** Education **/
+
+.education-2{
+    
+    background-color:rgb(193, 224, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-size:1.50rem;
+    padding-top:15px;
+}
+
+.h-line{
+    position: relative;
+    bottom: 7px;
+}
+
+
+.edu{
+    height:150px;
+    background-color:rgb(193, 224, 224);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.ssc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.hsc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.bca{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.clg{
+    font-size:2rem;
+}
+
+
+.school{
+    font-size:0.80rem;
+    margin-top:10px;
+}
+
+/** contact me **/
+
+.contact-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top:15px;
+    font-size:1.25rem;
+}
+
+.con-me{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    margin-top:20px;
+}
+
+.send-b{
+    width:150px;
+    height:30px;
+    color:white;
+    background-color:blueviolet;
+    border:2px solid rgb(63, 59, 59);
+    border-radius:10px;
+    transition-property: all 2s ease-in;
+}
+
+.send-b:hover {
+    background-color:rgb(95, 91, 91)
+    
+}
+
+/** footer **/
+
+.copyright{
+
+    color:white;
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height:30px;
+    font-size:0.80rem;
+    margin-top:40px;
+    padding-bottom:px;
+}
+
+.pad{
+    height:30px;
 }
